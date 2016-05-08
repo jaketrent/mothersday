@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.title {
+  margin: 20vh 0;
+}
+.title img {
+  max-width: 100%;
+}
+.line {
+  display: flex;
+  margin-bottom: 7vh;
+  padding: 0 5vh;
+}
+.photo,
+.msg {
+  flex: 1;
+  padding: 0 1vw;
+}
+.photo img,
+.msg img {
+  width: 100%;
+}
+.msg img {
+  outline: 1px solid #ff26af;
+}
+.closing {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .title {
+    margin: 4vh 0;
+  }
+  .line {
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 10vh;
+  }
+  .photo,
+  .msg {
+    padding: 1vh 1vw;
+  }
+}

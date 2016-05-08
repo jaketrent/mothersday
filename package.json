@@ -1,0 +1,19 @@
+{
+  "name": "mothersday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "6.x",
+    "npm": "3.x"
+  },
+  "author": "jaketrent",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^1.2.0",
+    "koa-static": "^2.0.0"
+  }
+}
